@@ -6,6 +6,9 @@ In the era of commercialization, music streaming services are pre-labelling song
 We shall study how to visualize sound, understand what we hear and identify the features that determine and differentiate one song from another. This study uses feature extraction and classification to help group songs on a genre basis – songs that are highly similar instead of manual tags. The model identifies the similar song based on the input song. This enhances user experience and increases artist recognition.
 
 **A little bit about the dataset used: (the GTZAN dataset has 4 files)**
+
 genres original - A collection of 10 genres with 100 audio files each, all having a length of 30 seconds.
+
 images original - A visual representation for each audio file.
+
 2 CSV files - Containing features of the audio files. Over 3sec duration and 30 sec durations of each audio file (this way increasing 10 times the amount of data for the 3 sec split as input to our classification models).
